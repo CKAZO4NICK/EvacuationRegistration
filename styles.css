@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.scroll-table {
+  width: 100%;
+  /* Ширина таблиці */
+  border-collapse: collapse;
+  /* Злиття рамок таблиці */
+  overflow-y: auto;
+  /* Дозволяє прокручувати вміст по вертикалі */
+  max-height: 400px;
+  /* Максимальна висота таблиці перед появою панелі прокрутки */
+}
+
+.route_buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.route_buttons form input,
+.create_button {
+  background: none;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  outline: none;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: all 0.5s ease 0s;
+}
+
+.back_button {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 20px;
+  display: block;
+  width: 280px;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+}
+
+.route_buttons form input:hover,
+.create_button:hover,
+.back_button:hover {
+  color: #fff;
+  background-color: #000;
+
+}
+
+.header_buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+
+}
+
+.evac_form label {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+}
+
+.right_list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+
+.right_p{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+}
